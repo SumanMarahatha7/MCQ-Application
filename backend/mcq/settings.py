@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 import os
 
@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_auth.registration',
     'accounts',
+    'quiz',
+    'nested_admin',
 ]
 
 SITE_ID = 1
